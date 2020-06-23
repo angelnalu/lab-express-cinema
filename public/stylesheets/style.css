@@ -1,0 +1,71 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+ a {
+    color: green;
+ }
+
+/* INDEX HBS */
+.background{
+  height: 50vw;
+  width: 100vw;
+  background-image: url("/images/cinema.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+.tittle-index{
+  color: white;
+  font-size: 90px;
+  margin-left: 65vw;
+  margin-top: 10vw;
+}
+
+
+.btn-index {
+  color: green;
+  align-items: right;
+  height: 60px;
+  width: 180px;
+  border-radius: 30px;
+  margin-left: 65vw;
+}
+
+/* MOVIES HBS */
+
+.cards-wrapper {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+ justify-content: center;
+}
+
+.sub-tittle {
+  color: white;
+}
+
+.card {
+
+  margin: 5px;
+  width: 25%;
+}
+
+.tittle-movies {
+margin-top: 30px;
+text-align: center;
+}
+
+.card-body {
+  text-align: center;
+  background-color: #505050;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

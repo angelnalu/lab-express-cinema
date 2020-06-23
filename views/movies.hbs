@@ -1,0 +1,18 @@
+<div>
+  <h1 class="tittle-movies">Movies</h1>
+</div>
+
+<section class="cards-wrapper">
+
+{{#each movies}}
+    <div class="card">
+      <img src="{{this.image}}">
+    <div class="card-body">
+      <p class="sub-tittle">{{this.title}}</p>
+      {{!-- <a href="/movies/show?_id={{_id}}">See more</a> --}}
+      <p><a href="/movies/{{_id}}">See more</a></p>
+    </div>
+  </div>
+{{/each}}
+
+</section>
